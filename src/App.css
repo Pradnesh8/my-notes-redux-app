@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.errLogin{
+  margin-top: 1rem;
+  color: orangered;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+.login img{
+  height: 30vh;
+  width: auto;
+  margin-bottom: 3vh;
+}
+.App{
+  position: relative;
+  min-height: 85vh;
+  width: 50vw;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(238, 228, 88);
+}
+.search-bar{
+  display: flex;
+}
+.search-bar input[type="text"]{
+  width: 30%;
+  padding: 0.3rem 0.2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+  height: 1rem;
+}
+.search-bar button{
+  height: fit-content;
+  background-color: black;
+  color: #ffffff;
+  border: 0;
+}
+/* Header syling */
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h3{
+  margin: 0;
+  font-size: 1.2rem;
+}
+.profile-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+.profile div{
+  margin: 0 0.5rem;
+}
+.profile{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  background-color: black;
+  border:0;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+.logout-icon{
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  background-color: black;
+  border:0;
+  color: #ffffff;
+  padding-top: 0.3rem;
+  border-radius: 50%;
+}
+/* Notelist styling */
+.notes-deck{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/* Note styling */
+.note-card{
+  cursor: default;
+  position: relative;
+  margin: 1rem 0.5rem;
+  height: auto;
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid rgb(238, 228, 88);
+  padding: 0.5rem;
+}
+.note-head{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.note-body{
+  /* border: 1px solid rgb(238, 228, 88); */
+  padding: 0.2rem 0;
+}
+.note-icon{
+  margin-right: 0.2rem;
+  cursor: pointer;
+  font-size:1.2rem;
+  padding:0.3rem; 
+  border-radius:'50%';
+  background-color:black;
+  color:white;
+}
+
+.icons{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 0.2rem;
+}
+/* Footer styling */
+footer{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+}
+/* Addnote styling */
+input[type="text"], textarea{
+  width: 100%;
+  border: 1px solid rgb(238, 228, 88);
+  padding: 0.3rem 0.2rem;
+  margin-bottom: 0.3rem;
+}
+/* Editnote styling */
+.editNoteForm{
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .notes-deck{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .note-card{
+    width: 96%;
+    margin: 1rem 0;
+  }
+  footer{
+    width: 100%;
+    text-align: start;
+    font-size: 0.9rem;
+  }
+}

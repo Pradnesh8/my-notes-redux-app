@@ -1,0 +1,48 @@
+{
+  "Notes": [
+    {
+      "email": "pradneshkhedekar08@gmail.com",
+      "header": "First note XYXYXY",
+      "body": "Awesome app for getting notes.",
+      "id": 1,
+      "date": "2021-03-25T11:44:58.236Z"
+    },
+    {
+      "email": "pradneshkhedekar08@gmail.com",
+      "header": "First note copy",
+      "body": "Awesome app for getting notes.",
+      "date": "2021-03-25T11:30:11.045Z",
+      "id": 2
+    },
+    {
+      "email": "pradneshkhedekar10@gmail.com",
+      "header": "ASDSAD",
+      "body": "asasdasdasd",
+      "id": 3,
+      "date": "2021-03-25T12:48:57.031Z"
+    },
+    {
+      "email": "pradneshkhedekar10@gmail.com",
+      "header": "asdasdasd",
+      "body": "asdasdasd",
+      "date": "2021-03-25T11:40:14.101Z",
+      "id": 4
+    },
+    {
+      "email": "pradneshkhedekar10@gmail.com",
+      "header": "NOtes rockss",
+      "body": "Lets note it!!!!!!!",
+      "date": "2021-03-25T11:46:17.215Z",
+      "id": 5
+    }
+  ],
+  "User": [
+    {
+      "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZhOGJhNTY1MmE3MDQ0MTIxZDRmZWRhYzhmMTRkMTRjNTRlNDg5NWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTM5NTAxNTc5MTA1LWxxbXQ0a2dic2tiN2tsdjM0MWRhZTRtM2oyN2s2M21rLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTM5NTAxNTc5MTA1LWxxbXQ0a2dic2tiN2tsdjM0MWRhZTRtM2oyN2s2M21rLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwOTM2Mjg0NTIxNTg2ODc2MzI0IiwiZW1haWwiOiJwcmFkbmVzaGtoZWRla2FyMTBAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJWQ0xlamxmenRtMndaSUhqZnVnYkVRIiwibmFtZSI6IlByYWRuZXNoIEtoZWRla2FyIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdoWDJPb0FHaUwzQzJmM0tZdkhfc0I4T2ZraGVmVDlyTnRQa2VIMDF3PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IlByYWRuZXNoIiwiZmFtaWx5X25hbWUiOiJLaGVkZWthciIsImxvY2FsZSI6ImVuIiwiaWF0IjoxNjE2Njc2NTMwLCJleHAiOjE2MTY2ODAxMzAsImp0aSI6ImIzYmNkYTZkZmI2YWVmMWUzNGY2YjZiZDM0MDIxOTdhMmNlMzk4MTMifQ.hsJ4YFJ6ZXb8zmSq-yxmE0PHQkkmFhJ5OVgv6fTjMcjPNX-8BKaS-DbP1VO1gXcOQSepEuOesLnippCnN6Q09bRf9CYRged0dfBC8mziCkTr2OjGtSmJdD7ubCNaDSnsBYoPc-vL85FLJEuSu4U-sTerMo6GRfqQfPFPpAeYgpRIZXMKbeQuV13Mlz-PN1SBNwfstNzuULqd9Tozn0NwnmuQaiV11I7Str8T1U2zukoBGCqSEu2X_gfiZDtByA7EhdiZC6jX4JCvfysZY-AJBR_AsjIFOcdKQQTxTZxNe7TNRDCiJRg0BCoQWJYd6R5xeB-R6pW0WYnFHIMARjSUvA",
+      "name": "Pradnesh Khedekar",
+      "email": "pradneshkhedekar10@gmail.com",
+      "picture": "https://lh3.googleusercontent.com/a-/AOh14GhX2OoAGiL3C2f3KYvH_sB8OfkhefT9rNtPkeH01w=s96-c",
+      "id": 1
+    }
+  ]
+}
